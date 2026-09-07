@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>네이버 블로그 기본 템플릿</title>
+<style>
+  body { font-family: "Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+         max-width:760px; margin:0 auto; padding:40px 24px 80px;
+         color:#222; line-height:1.9; font-size:16px; background:#fff; }
+  h2   { font-size:22px; font-weight:700; margin:56px 0 20px;
+         padding-bottom:12px; border-bottom:2px solid #222; }
+  p    { margin:0 0 18px; }
+  .guide { background:#f5f6f8; border:1px solid #ddd; border-radius:10px;
+           padding:24px 28px; margin:0 0 32px; font-size:14.5px; line-height:1.8; }
+  .guide h3 { margin:0 0 10px; font-size:16px; }
+  .guide h3:not(:first-child) { margin-top:26px; }
+  .guide ul, .guide ol { margin:6px 0 18px; padding-left:20px; }
+  .guide li { margin-bottom:6px; }
+  .copyline { text-align:center; color:#999; font-size:13px; letter-spacing:2px;
+              margin:18px 0; }
+  table { width:100%; border-collapse:collapse; margin:20px 0 8px; font-size:15px; }
+  th { border-bottom:1px solid #333; color:#555; font-weight:600; text-align:left;
+       padding:14px 16px 14px 0; }
+  th:first-child, td:first-child { padding-left:0; }
+  td { border-bottom:1px solid #e8e8e8; padding:14px 16px 14px 0; }
+  .num { text-align:right; white-space:nowrap; }
+  .foot { font-size:13px; color:#888; margin:0 0 24px; }
+  .summary { border-left:4px solid #2b7cff; background:#f3f7ff; padding:18px 20px;
+             margin:20px 0 28px; border-radius:4px; }
+  .summary p:last-child { margin-bottom:0; }
+  .quote { border-left:4px solid #ff9800; background:#fffaef; padding:18px 20px;
+           margin:20px 0 28px; border-radius:4px; }
+  .photo { border:1px dashed #bbb; border-radius:8px; padding:24px; margin:24px 0;
+           color:#777; font-size:14px; text-align:center; }
+  .caution { border:1px solid #ffd1d1; background:#fff6f6; padding:18px 20px;
+             margin:20px 0 28px; border-radius:6px; font-size:15px; }
+  .blockname { font-size:13px; color:#2b7cff; font-weight:700; letter-spacing:1px;
+               margin:40px 0 6px; padding-top:20px; border-top:1px dashed #ccd; }
+  .ph { color:#b00; }
+</style>
+</head>
+<body>
+
+<div class="guide">
+  <h3>🧩 이 파일은 뭔가요?</h3>
+  <p>매 글마다 똑같이 반복해서 만드는 서식(요약박스 · 표 · 주의박스 · 사진자리 · 출처박스)만 뽑아둔 <b>골격 파일</b>입니다.
+     네이버 스마트에디터에 <b>딱 한 번만</b> 등록해두면, 다음 글부터는 템플릿을 불러와서 내용만 채우면 됩니다.</p>
+
+  <h3>1️⃣ 최초 1회 — 내 템플릿으로 등록하기</h3>
+  <ol>
+    <li>아래 「▼ 여기부터 복사 ▼」 ~ 「▲ 여기까지 복사 ▲」 구간을 드래그해서 복사</li>
+    <li>네이버 블로그 → <b>글쓰기</b> → 본문에 붙여넣기</li>
+    <li>서식이 깨진 곳이 없는지 한 번 훑어보기 (특히 표와 색 박스)</li>
+    <li>에디터 우측 상단 <b>템플릿</b> → <b>내 템플릿</b> → <b>현재 글 추가</b></li>
+    <li>이름을 <code>기본골격</code> 등으로 저장 → 그대로 창 닫기 (발행하지 않음)</li>
+  </ol>
+
+  <h3>2️⃣ 매번 — 글 쓸 때</h3>
+  <ol>
+    <li>글쓰기 → <b>템플릿</b> → <b>내 템플릿</b> → <code>기본골격</code> 불러오기</li>
+    <li><span class="ph">【빨간 글씨 자리】</span>만 실제 내용으로 교체</li>
+    <li>안 쓰는 블록은 통째로 삭제, 더 필요한 블록은 아래 <b>블록 라이브러리</b>에서 복사해 삽입</li>
+  </ol>
+
+  <h3>⚠️ 등록 전에 확인할 것</h3>
+  <ul>
+    <li>에디터 버전에 따라 색 배경 박스가 회색으로 변하거나 테두리가 빠질 수 있습니다. 등록 직후 <b>임시저장 → 미리보기</b>로 한 번 확인하세요.</li>
+    <li>박스 서식이 안 살아남으면, 해당 블록은 에디터 기본 기능(인용구 · 구분선)으로 대체하는 편이 안전합니다.</li>
+  </ul>
+</div>
+
+<div class="copyline">▼ 여기부터 복사 ▼</div>
+
+<p><span class="ph">【도입 1문장 — 독자가 실제로 들어봤을 법한 말이나 상황으로 시작】</span></p>
+<p><span class="ph">【도입 2문장 — 그래서 무엇에 대한 이야기인지, 사람들이 뭘 궁금해하는지】</span></p>
+<p><span class="ph">【도입 3문장 — 오늘 이 글에서 정리해줄 항목을 순서대로 나열】</span></p>
+
+<div class="summary">
+  <p><span class="ph">【핵심요약 1 — 한 문장으로 결론】</span></p>
+  <p><span class="ph">【핵심요약 2 — 반드시 같이 알아야 할 단서·전제조건. 없으면 이 줄 삭제】</span></p>
+</div>
+
+<h2><span class="ph">【소제목 1 — 가장 많이 검색하는 질문】</span></h2>
+<p><span class="ph">【본문】</span></p>
+<p><span class="ph">【본문】</span></p>
+
+<div class="photo">
+  [사진 1] <span class="ph">【이미지 설명】</span> · 캡션: "<span class="ph">【캡션 문구】</span>" · 출처 표기 필요
+</div>
+
+<h2><span class="ph">【소제목 2 — 수치·조건을 표로 보여줄 구간】</span></h2>
+<p><span class="ph">【표 앞 설명 한 줄】</span></p>
+
+<table>
+  <tr>
+    <th style="width:34%"><span class="ph">【항목】</span></th>
+    <th style="width:33%"><span class="ph">【조건】</span></th>
+    <th style="width:33%" class="num"><span class="ph">【금액】</span></th>
+  </tr>
+  <tr>
+    <td><span class="ph">【행1】</span></td>
+    <td><span class="ph">【행1】</span></td>
+    <td class="num"><span class="ph">【행1】</span></td>
+  </tr>
+  <tr>
+    <td><span class="ph">【행2】</span></td>
+    <td><span class="ph">【행2】</span></td>
+    <td class="num"><span class="ph">【행2】</span></td>
+  </tr>
+  <tr>
+    <td><span class="ph">【행3】</span></td>
+    <td><span class="ph">【행3】</span></td>
+    <td class="num"><span class="ph">【행3】</span></td>
+  </tr>
+</table>
+<p class="foot">※ <span class="ph">【기준 시점 · 변경 가능성 단서】</span></p>
+
+<div class="photo">
+  [사진 2] <span class="ph">【인포그래픽 설명】</span> · 캡션: "<span class="ph">【캡션 문구】</span>" · 출처 표기 필요
+</div>
+
+<h2><span class="ph">【소제목 3 — 계산·전망·사례】</span></h2>
+<p><span class="ph">【본문】</span></p>
+
+<div class="quote">
+  <p><span class="ph">【인용 또는 부가 정보. 없으면 이 블록 삭제】</span></p>
+</div>
+
+<div class="caution">
+  <p><b><span class="ph">【주의 헤드 — 오해하기 쉬운 지점】</span></b> <span class="ph">【왜 그런지 설명】</span></p>
+</div>
+
+<h2><span class="ph">【소제목 4 — 시기 · 절차 · 아직 안 정해진 것】</span></h2>
+<p><span class="ph">【본문】</span></p>
+<ul>
+  <li><span class="ph">【미확정 항목 1】</span></li>
+  <li><span class="ph">【미확정 항목 2】</span></li>
+  <li><span class="ph">【미확정 항목 3】</span></li>
+</ul>
+
+<div class="caution">
+  <p><span class="ph">【마무리 정리 — 지금 시점에서 확정된 것과 아닌 것을 다시 한 번 구분】</span></p>
+</div>
+
+<p><span class="ph">【참여 유도 한 줄 — 댓글로 물어볼 만한 질문 + 업데이트 약속】</span> 🙂</p>
+
+<div class="copyline">▲ 여기까지 복사 ▲</div>
+
+<div class="guide">
+  <h3>🧱 블록 라이브러리</h3>
+  <p>골격에 없는 블록이 필요할 때 아래에서 해당 블록만 드래그 복사해서 본문 중간에 붙여넣으세요.</p>
+</div>
+
+<div class="blockname">BLOCK · 파란 요약박스</div>
+<div class="summary">
+  <p><span class="ph">【결론 한 줄】</span></p>
+</div>
+
+<div class="blockname">BLOCK · 주황 인용박스</div>
+<div class="quote">
+  <p><span class="ph">【인용문 또는 참고 정보】</span></p>
+</div>
+
+<div class="blockname">BLOCK · 빨강 주의박스</div>
+<div class="caution">
+  <p><b><span class="ph">【주의 헤드】</span></b> <span class="ph">【설명】</span></p>
+</div>
+
+<div class="blockname">BLOCK · 사진 자리</div>
+<div class="photo">
+  [사진 N] <span class="ph">【이미지 설명】</span> · 캡션: "<span class="ph">【캡션】</span>" · 출처 표기 필요
+</div>
+
+<div class="blockname">BLOCK · 2열 표 (항목 / 내용)</div>
+<table>
+  <tr>
+    <th style="width:34%"><span class="ph">【항목】</span></th>
+    <th style="width:66%"><span class="ph">【내용】</span></th>
+  </tr>
+  <tr><td><span class="ph">【행1】</span></td><td><span class="ph">【행1】</span></td></tr>
+  <tr><td><span class="ph">【행2】</span></td><td><span class="ph">【행2】</span></td></tr>
+</table>
+<p class="foot">※ <span class="ph">【기준 시점】</span></p>
+
+<div class="blockname">BLOCK · 소제목 + 본문 세트</div>
+<h2><span class="ph">【소제목】</span></h2>
+<p><span class="ph">【본문】</span></p>
+<p><span class="ph">【본문】</span></p>
+
+<div class="guide">
+  <h3>✅ 발행 직전 체크리스트</h3>
+  <ul>
+    <li><span class="ph">【빨간 글씨 자리】</span>가 하나도 안 남아 있는지 (Ctrl+F로 「【」 검색)</li>
+    <li>표가 스마트에디터에서 표 형태 그대로 붙여넣어졌는지</li>
+    <li>사진 캡션과 출처 표기를 모두 채웠는지</li>
+    <li>확정되지 않은 내용에 「예정 · 정부안」 같은 단서가 붙어 있는지</li>
+    <li>제목 · 썸네일 문구 · 카테고리 · 발행 시간을 정했는지</li>
+    <li>내용이 바뀔 수 있는 글이면, 재검토 일정을 캘린더에 잡았는지</li>
+  </ul>
+
+  <h3>🖼️ 이미지 원칙</h3>
+  <ul>
+    <li>직접 촬영하거나 무료 저작권 이미지(픽사베이 · 언스플래시)를 사용</li>
+    <li>뉴스 기사 캡처는 그대로 쓰지 말고 직접 표 · 그래픽으로 재구성</li>
+    <li>출처 표기는 생략하지 않음</li>
+  </ul>
+</div>
+
+</body>
+</html>
